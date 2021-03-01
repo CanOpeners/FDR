@@ -1,0 +1,64 @@
+\documentclass[a4paper, 13pt]{report}
+
+\usepackage{currfile}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{color}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{import}
+\usepackage{titling}
+\usepackage{pdfpages}
+\usepackage[pdfusetitle, colorlinks, bookmarks]{hyperref}
+\hypersetup{
+	pdfkeywords={CDR, CanSat},
+	bookmarksnumbered=true,
+	bookmarks=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=1,
+	colorlinks=true,
+	pdfpagemode=UseOutlines,
+	linkcolor=blue
+}
+\usepackage[a4paper,left=2cm,right=2.5cm,top=1cm,bottom=1.5cm]{geometry}
+\usepackage{hypcap}
+\usepackage{fancyhdr}
+\usepackage[font=small,labelfont=bf]{caption}
+
+\author{The CanOpeners Team}
+\title{Final Design Report}
+\date{}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all fields
+\renewcommand{\headrulewidth}{1pt}
+\fancypagestyle{plain}{}
+
+\fancyhead[L]{\includegraphics[height=20mm]{ext/logo.png}}
+\fancyhead[C]{\large\fontseries{b}Final Design Report}
+\fancyhead[R]{\large\fontseries{b}\theauthor}
+\fancyfoot[C]{\large\fontseries{b}\thepage}
+\setlength{\headheight}{25mm}
+% Will do if we've got time - tfk
+
+
+\begin{document}
+\begin{titlepage}
+  \import{.}{title}
+\end{titlepage}
+\tableofcontents
+
+
+\chapter{Changelog}
+\import{.}{changelog}
+\chapter{Introduction}
+\import{./introduction}{mod}
+\chapter{Cansat Description}
+\import{./description}{mod}
+\chapter{Test Campaign}
+\import{./testcamp}{mod}
+\chapter{Project Planning}
+\import{./planning}{mod}
+\chapter{Characteristics}
+\import{.}{characteristics}	
+\end{document}

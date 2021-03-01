@@ -1,0 +1,25 @@
+\documentclass[class=report, crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+
+\begin{document}
+\subsection*{Stage Zero}
+The CanSat is on the ground. \\
+The last electronic and structural checks are performed.
+The ground crew turns on the satellite and calibrates sensors.
+The parachute is folded and placed with the satellite in the carrier rocket.
+\subsection*{Stage One}
+We envision for our CanSat to be carried to an altitude of 2-3km. \\
+After successful separation from the carrier rocket, the CanSat recovery module deploys.
+At the same time, the GPS module connects to the system, and the ground control starts receiving the signal from the satellite.
+The SatTrack system is not operational yet, as the ground antenna has to be calibrated manually.
+\subsection*{Stage Two}
+The SatTrack and GlideCan systems are working without errors. \\
+The ground station receives data packages with a frequency higher than 1Hz. GPS coordinates of the satellite combined with barometer readings allow for accurate location of the CanSat in 3D space.
+The parachute has been fully deployed. The onboard camera records the flight and saves the recordings onto an onboard SD card, possibly transmitting it if the compression, bandwidth and processing power are sufficient.
+Thanks to a steerable parachute, the satellite aligns its direction to start gliding horizontally.
+\subsection*{Stage Three}
+After safely reaching the ground, the satellite enters a recovery mode. \\
+The camera module and GPS receiver turn off to decrease electricity usage. The satellite fulfills only the most essential task - broadcasting a distinguishable ping once per second.
+The satellite will continue to stay in recovery mode until it's found or runs out of power.
+\end{document}

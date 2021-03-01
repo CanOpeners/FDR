@@ -1,0 +1,14 @@
+\documentclass[class=report, crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+
+\begin{document}
+The data collected from the primary missions is going to help us achieve additional goals. These goals aren't required, neither are they as simple as collecting raw sensor readings and transmitting them.
+	\begin{itemize}
+	\item \textbf{SatTrack} \\
+  SatTrack is a system that constantly adjusts the elevation and direction angle of the ground station antenna in order to maintain the best connection with the CanSat. For the system to work, the satellite and the ground control will be equipped with a GPS receiver. The GPS coordinates combined with the altitude from the barometer will allow for accurate location of the satellite in 3-dimensional space, relative to the ground station. With knowledge regarding the difference between each coordinate, the ground station can adjust the elevation angle and the direction angle of the antenna so the signal is as strong as possible.
+\item \textbf{GlideCan} \\
+  GlideCan is a system that allows for the satellite to achieve slow descent, while aiming to land as near as possible to the ground station. 
+	GlideCan is a recovery system that allows the satellite to achieve controlled, slowed descent. The recovery system is composed of a controllable U-shaped parachute and parachute control structure. The U-shaped parachute is made of flexible material that allows for stowage outside the satellite during the ascent. The chute's size will be determined in the future to obtain the desired descent velocity (about $5\frac{\text{m}}{\text{s}}$). The framework of the parachute is based on a real-world steerable chute design. Additionally, we are yet to program but have made it possible to add a feature that allows for turning the sat mid-flight. Our idea revolves around a couple of servo motors located in the sat to pull the strings attached to a parachute, creating an irregular aerodynamic profile that leads to turning tendencies of the CanSat.
+	\end{itemize}
+\end{document}

@@ -1,0 +1,18 @@
+\documentclass[class=report, crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+
+\begin{document}
+We have carried out tests of our modules, both software-wise and hardware-wise. \\
+We have also made tests of the parachute and wireless communication systems.
+\section{Tests of the parachute}
+\subimport{.}{parachute}
+\section{Onboard microcontroller board and primary mission sensors}
+\subimport{.}{primaryboard}
+\section{Radio communications}
+\subimport{.}{radio}
+\section{Structural integrity tests chassis}
+\subimport{.}{chassis}
+\section{Energy consumption tests}
+\subimport{.}{energy}
+\end{document}

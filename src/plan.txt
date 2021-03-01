@@ -1,0 +1,21 @@
+[~] Changelog
+
+// [ ] Zdjęcia Puszki
+// [ ] Zdjęcia Modułów
+[ ] Rozszerzyć electrical design (Zdjęcia, Schematy)
+[ ] Rozszerzyć software design (Fragmenty kodu, Publiczne repo)
+[ ] Rozszerzyć parachute (Teoria, Zdjęcia)
+[ ] Rozszerzyć secondary mission description:
+- [ ] Glidesat
+- [ ] Cansat
+
+[ ] TESTY:
+- [ ] Parachute
+- [ ] Connectivity
+- [ ] Power Consumption
+- [ ] Structural integrity
+- [ ] Sensor testing
+
+[ ] Tasklist
+[ ] Update resource estim.
+[ ] Characteristics - wypełnić koszt
